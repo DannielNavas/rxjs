@@ -1,0 +1,17 @@
+{
+  "name": "rxjs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack serve"
+  },
+  "dependencies": {
+    "rxjs": "^7.8.1",
+    "webpack": "^5.81.0",
+    "webpack-dev-server": "^4.13.3"
+  },
+  "devDependencies": {
+    "webpack-cli": "^5.0.2"
+  }
+}
