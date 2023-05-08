@@ -4,62 +4,18 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
   <link rel="stylesheet" href="style.css">
-  <title>RxJs</title>
 </head>
 <body>
-  <h1 class="web-title">Juego</h1>
-  <div class="letters-container">
-    <div class="letter-row">
-      <div class="letter"></div>
-      <div class="letter"></div>
-      <div class="letter"></div>
-      <div class="letter"></div>
-      <div class="letter"></div>
-    </div>
-    <div class="letter-row">
-      <div class="letter"></div>
-      <div class="letter"></div>
-      <div class="letter"></div>
-      <div class="letter"></div>
-      <div class="letter"></div>
-    </div>
-    <div class="letter-row">
-      <div class="letter"></div>
-      <div class="letter"></div>
-      <div class="letter"></div>
-      <div class="letter"></div>
-      <div class="letter"></div>
-    </div>
-    <div class="letter-row">
-      <div class="letter"></div>
-      <div class="letter"></div>
-      <div class="letter"></div>
-      <div class="letter"></div>
-      <div class="letter"></div>
-    </div>
-    <div class="letter-row">
-      <div class="letter"></div>
-      <div class="letter"></div>
-      <div class="letter"></div>
-      <div class="letter"></div>
-      <div class="letter"></div>
-    </div>
-    <div class="letter-row">
-      <div class="letter"></div>
-      <div class="letter"></div>
-      <div class="letter"></div>
-      <div class="letter"></div>
-      <div class="letter"></div>
-    </div>
-  </div>
-  <div class="message-container">
-    <p class="message-text" id="message-text">
+  <h1 class="web-title">Board</h1>
+  <div class="whiteboard-container">
+    <canvas id="reactive-canvas" class="canvas" height="500" width="900">
 
-    </p>
+    </canvas>
   </div>
-  <div class="restart-container">
-    <button class="restart-button">Reiniciar</button>
+  <div class="restart-button" id="restart-button">
+    Reiniciar
   </div>
   <script src="./bundle.js"></script>
 </body>
